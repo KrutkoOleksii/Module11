@@ -36,7 +36,6 @@ public class Main {
                         e.printStackTrace();
                     }
                 }
-                //System.out.println("Подчиненный поток завершен");
             }
         });
         myThread.start();
@@ -51,7 +50,5 @@ public class Main {
                 e.printStackTrace();
             }
         }
-        //System.out.println("Основной поток завершен");
     }
-
 }
